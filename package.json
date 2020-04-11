@@ -10,7 +10,7 @@
     "setup": "texhub setup && texhub install",
     "install": "texhub install",
     "erase": "git checkout -- ./whitepaper.pdf",
-    "erase-logs": "git checkout -- ./whitepaper.aux ./whitepaper.log"
+    "erase-logs": "rm ./whitepaper.aux ./whitepaper.log"
   },
   "repository": {
     "type": "git",
