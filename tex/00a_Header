@@ -1,8 +1,8 @@
 % English
-\documentclass[12pt,twoside,a4paper,pdflatex,ja=standard]{bxjsarticle}
+\documentclass[12pt,twoside,a4paper,pdflatex,ja=standard]{report}
 
 % Japanese
-%\documentclass[12pt,twoside,a4paper,pdflatex,ja=standard]{report}
+%\documentclass[12pt,twoside,a4paper,pdflatex,ja=standard]{bxjsarticle}
 
 \usepackage[utf8]{inputenc}
 \usepackage{enumitem}
