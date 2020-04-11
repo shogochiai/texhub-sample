@@ -4,12 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "texhub build",
-    "build": "texhub build",
+    "start": "texhub build && npm run erase-logs",
+    "build": "texhub build && npm run erase-logs",
     "reset": "texhub template",
     "setup": "texhub setup && texhub install",
     "install": "texhub install",
-    "erase": "git checkout -- ./whitepaper.pdf"
+    "erase": "git checkout -- ./whitepaper.pdf",
+    "erase-logs": "git checkout -- ./whitepaper.aux ./whitepaper.log"
   },
   "repository": {
     "type": "git",
