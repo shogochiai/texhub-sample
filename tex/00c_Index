@@ -1,0 +1,22 @@
+\scriptsize
+\setlist[enumerate]{label*=\arabic*.}
+
+\begin{enumerate}
+\item Abstract
+    \begin{enumerate}
+    \item Body
+    \end{enumerate}
+
+\item Index
+    \begin{enumerate}
+    \item Body
+    \end{enumerate}
+
+\item Sample Chapter
+    \begin{enumerate}
+    \item Body
+    \end{enumerate}
+
+\end{enumerate}
+
+\fontsize{10pt}{10pt}\selectfont

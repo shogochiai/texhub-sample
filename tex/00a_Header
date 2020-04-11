@@ -1,0 +1,33 @@
+% English
+\documentclass[12pt,twoside,a4paper,pdflatex,ja=standard]{bxjsarticle}
+
+% Japanese
+%\documentclass[12pt,twoside,a4paper,pdflatex,ja=standard]{report}
+
+\usepackage[utf8]{inputenc}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+\usepackage{listings}
+
+\graphicspath{{figs/}}
+\setlength{\parindent}{2em}
+\setlength{\parskip}{1em}
+\renewcommand{\baselinestretch}{1.8}
+
+\pagestyle{fancy}
+
+\title{
+    Template Paper
+    \\ 
+    \large Let's learn some texhub for great good!
+}
+\author{
+    \scriptsize Shogo Ochiai shogo.ochiai@protonmail.com
+}
+\date{\scriptsize Created At: April 11, 2020 }
+ 
+\begin{document}
+ 
+\maketitle
+

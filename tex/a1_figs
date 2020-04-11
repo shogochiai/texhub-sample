@@ -1,0 +1,7 @@
+\begin{figure}[h!]
+    \begin{center}
+        \includegraphics[width=\textwidth]{template-figure.png}
+        \caption{Sample Figure}
+        \label{fig:template-figure}
+     \end{center}
+\end{figure}

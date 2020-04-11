@@ -1,0 +1,38 @@
+{
+  "name": "texhub-sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "texhub build",
+    "build": "texhub build",
+    "reset": "texhub template",
+    "setup": "texhub setup && texhub install",
+    "install": "texhub install",
+    "erase": "git checkout -- ./whitepaper.pdf"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/shogochiai/texhub-sample.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shogochiai/texhub-sample/issues"
+  },
+  "homepage": "https://github.com/shogochiai/texhub-sample#readme",
+  "dependencies": {
+    "texhub": "^1.0.8",
+    "node": "^9.9.0"
+  },
+  "devDependencies": {
+    "post-commit": "0.0.1",
+    "pre-commit": "^1.2.2"
+  },
+  "pre-commit": [
+    "build"
+  ],
+  "post-commit": [
+    "erase"
+  ]
+}

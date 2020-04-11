@@ -1,0 +1,12 @@
+\section{Sample Section}
+
+\subsection{Sample Subsection}
+
+\subsubsection{Sample Subsubsection}
+
+\begin{figure}[ht!]
+    \includegraphics[width=\textwidth]{template-figure.png}
+    \caption{Sample Figure}
+    \label{fig:template-figure}
+\end{figure}
+Check out Figure-\ref{fig:template-figure}!
