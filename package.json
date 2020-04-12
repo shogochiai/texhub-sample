@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/shogochiai/texhub-sample#readme",
   "dependencies": {
-    "texhub": "^1.0.8",
+    "texhub": "^1.0.12",
     "node": "^9.9.0"
   },
   "devDependencies": {
